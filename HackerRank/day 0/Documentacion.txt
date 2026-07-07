@@ -1,0 +1,32 @@
+Objetivo
+
+En este desafío, repasaremos algunos conceptos básicos que te ayudarán a comenzar esta serie. Necesitarás usar la misma sintaxis (o una similar) para leer la entrada y escribir la salida en los desafíos de HackerRank. ¡Consulta la pestaña Tutorial para encontrar material de aprendizaje y un video instructivo!
+
+Tarea
+
+Para completar este desafío, debes guardar una línea de entrada desde stdin en una variable, imprimir Hello, World. en una sola línea y, finalmente, imprimir el valor de tu variable en una segunda línea.
+
+¡Tú puedes hacerlo!
+
+Nota: Las instrucciones están basadas en Java, pero admitimos envíos en muchos lenguajes de programación populares. Puedes cambiar de lenguaje usando el menú desplegable que está encima del editor, y la variable puede escribirse de forma diferente según las convenciones de buenas prácticas del lenguaje que elijas.
+
+Formato de entrada
+
+Una sola línea de texto que representa la variable (cuyo contenido debe imprimirse).
+
+Formato de salida
+
+Imprime Hello, World. en la primera línea y el contenido de la variable en la segunda línea.
+
+Ejemplo de entrada
+
+Welcome to 30 Days of Code!
+
+Ejemplo de salida
+
+Hello, World.
+Welcome to 30 Days of Code!
+
+Explicación
+
+En la primera línea imprimimos la cadena literal Hello, World.. En la segunda línea imprimimos el contenido de la variable, que en este caso de ejemplo es Welcome to 30 Days of Code!. Si no imprimes el contenido de la variable en la salida estándar (stdout), no superarás el caso de prueba oculto.
