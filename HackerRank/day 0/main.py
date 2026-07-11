@@ -1,7 +1,7 @@
-inputString = input() # get a line of input from stdin and save it to our variable
+inputString = input(' Dime a ve escribe algo aqui:') # get a line of input from stdin and save it to our variable
 
 # Your first line of output goes here
-print('Hello, World.')
+print('Que duro tu eres :v.')
 
 # Write the second line of output
-print (inputString)
+print (f'Gracias por escribir tu mensaje, que humilde: {inputString}')
