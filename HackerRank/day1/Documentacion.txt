@@ -1,0 +1,43 @@
+Objetivo
+
+Hoy hablaremos sobre tipos de datos. ¡Consulta la pestaña Tutorial para encontrar material de aprendizaje y un video instructivo!
+
+Tarea
+
+Completa el código en el editor de abajo. Las variables i, d y s ya están declaradas e inicializadas. Debes:
+
+Declarar tres variables:
+una de tipo int,
+una de tipo double,
+y una de tipo String.
+Leer tres líneas de entrada desde stdin (siguiendo el orden indicado en la sección Formato de entrada) e inicializar tus tres variables.
+Usar el operador + para realizar las siguientes operaciones:
+Imprimir la suma de i y tu variable int en una nueva línea.
+Imprimir la suma de d y tu variable double con un decimal en una nueva línea.
+Concatenar s con la cadena que leíste como entrada e imprimir el resultado en una nueva línea.
+
+Nota: Si estás usando un lenguaje que no admite el operador + para concatenar cadenas (por ejemplo, C), puedes simplemente imprimir una variable inmediatamente después de la otra en la misma línea. La cadena proporcionada en el editor debe imprimirse primero, seguida inmediatamente por la cadena que leíste como entrada.
+
+Formato de entrada
+La primera línea contiene un entero que debes sumar con i.
+La segunda línea contiene un double que debes sumar con d.
+La tercera línea contiene una cadena de texto (String) que debes concatenar con s.
+Formato de salida
+Imprime la suma de ambos enteros en la primera línea.
+Imprime la suma de ambos números de punto flotante (con 1 decimal) en la segunda línea.
+Imprime las dos cadenas concatenadas en la tercera línea.
+Ejemplo de entrada
+12
+4.0
+is the best place to learn and practice coding!
+Ejemplo de salida
+16
+8.0
+HackerRank is the best place to learn and practice coding!
+Explicación
+Al sumar los enteros 4 y 12, obtenemos 16.
+Al sumar los números de punto flotante 4.0 y 4.0, obtenemos 8.0.
+Al concatenar "HackerRank " con "is the best place to learn and practice coding!", obtenemos:
+HackerRank is the best place to learn and practice coding!
+
+Importante: No superarás este desafío si intentas asignar directamente los valores del ejemplo a tus variables en lugar de leer la entrada desde stdin siguiendo las instrucciones.
