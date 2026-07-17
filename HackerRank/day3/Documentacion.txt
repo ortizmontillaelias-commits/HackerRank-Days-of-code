@@ -1,0 +1,50 @@
+Objetivo
+
+En este desafío, aprenderemos sobre las sentencias condicionales. Revisa la pestaña Tutorial para encontrar material de aprendizaje y un video instructivo.
+
+Tarea
+
+Dado un número entero n, realiza las siguientes acciones condicionales:
+
+Si n es impar, imprime Weird.
+Si n es par y está en el rango inclusivo de 2 a 5, imprime Not Weird.
+Si n es par y está en el rango inclusivo de 6 a 20, imprime Weird.
+Si n es par y es mayor que 20, imprime Not Weird.
+
+Completa el código base proporcionado en tu editor para imprimir si n es o no Weird.
+
+Formato de entrada
+
+Una sola línea que contiene un número entero positivo, n.
+
+Restricciones
+
+Formato de salida
+
+Imprime Weird si el número es extraño; de lo contrario, imprime Not Weird.
+
+Ejemplo de entrada 0
+
+3
+
+Ejemplo de salida 0
+
+Weird
+
+Ejemplo de entrada 1
+
+24
+
+Ejemplo de salida 1
+
+Not Weird
+
+Explicación
+
+Caso de ejemplo 0:
+
+n es impar, y los números impares son considerados Weird, por lo que imprimimos Weird.
+
+Caso de ejemplo 1:
+
+n = 24 y 24 es un número par, por lo que no es Weird. En consecuencia, imprimimos Not Weird.
