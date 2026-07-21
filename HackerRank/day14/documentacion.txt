@@ -1,0 +1,51 @@
+Objetivo
+
+Hoy hablaremos del alcance (Scope). ¡Consulta la pestaña Tutorial para acceder a materiales de aprendizaje y un video instructivo!
+
+Concepto
+
+La diferencia absoluta entre dos números enteros, a y b, se escribe como |a - b|. La máxima diferencia absoluta entre dos enteros en un conjunto de enteros positivos, S, es la mayor diferencia absoluta entre dos enteros cualesquiera en S.
+
+La clase Difference se inicia para usted en el editor. Tiene una matriz de enteros privada (elements) para almacenar enteros no negativos y un entero público (maximumDifference) para almacenar la máxima diferencia absoluta.
+
+Tarea
+
+Completa la clase Difference escribiendo lo siguiente:
+
+Un constructor de clase que toma un array de enteros como parámetro y lo guarda en la variable de instancia elements.
+Un método computeDifference que encuentra la máxima diferencia absoluta entre dos números cualesquiera en elements y la almacena en la variable de instancia maximumDifference.
+
+Formato de entrada
+
+Usted no es responsable de leer ninguna entrada desde stdin. La clase Solution bloqueada en el editor lee líneas de entrada. La primera línea contiene N, el tamaño del array elements. La segunda línea tiene N enteros separados por espacios que describen los valores del array.
+
+Restricciones
+
+2 <= N <= 10
+-1000 <= elements[i] <= 1000, donde 0 <= i < N
+
+Formato de salida
+
+Usted no es responsable de imprimir ninguna salida; la clase Solution imprimirá el valor de la variable de instancia maximumDifference.
+
+Entrada de ejemplo
+
+STDIN   Function
+-----   --------
+3       __elements[] size N = 3
+1 2 5   __elements = [1, 2, 5]
+
+Salida de ejemplo
+
+4
+
+Explicación
+
+El alcance de la matriz elements y el entero maximumDifference es la instancia completa de la clase. El constructor de la clase guarda el argumento pasado al constructor como la variable de instancia elements (a la que el método computeDifference puede acceder).
+
+Para encontrar la diferencia máxima, computeDifference comprueba cada elemento en el array y encuentra la diferencia máxima entre dos elementos cualesquiera:
+
+|1 - 2| = 1
+|1 - 5| = 4
+
+El máximo de estas diferencias es 4, por lo que guarda el valor 4 como la variable de instancia maximumDifference. El código stub bloqueado en el editor imprime entonces el valor almacenado como maximumDifference, que es 4.
