@@ -1,0 +1,50 @@
+Objetivo
+Hoy aprenderemos sobre las asignaciones de pares clave-valor usando una estructura de datos Map o Dictionary. Consulta la pestaña Tutorial para material de aprendizaje y un video instructivo.
+
+Tarea
+Dados nombres y números de teléfono, arma una agenda telefónica que mapee los nombres de amigos a sus respectivos números de teléfono. Luego se te darán una cantidad desconocida de nombres para consultar en tu agenda. Por cada nombre consultado, imprime la entrada asociada de tu agenda en una nueva línea con el formato nombre=numeroDeTelefono; si no se encuentra una entrada, imprime Not found en su lugar.
+
+Nota: Tu agenda debe ser una estructura de datos Dictionary/Map/HashMap.
+
+Formato de entrada
+La primera línea contiene un entero que denota el número de entradas en la agenda.
+Cada una de las siguientes líneas describe una entrada en forma de valores separados por espacios en una sola línea. El primer valor es el nombre de un amigo, y el segundo valor es un número de teléfono de varios dígitos.
+Después de las líneas de entradas de la agenda, hay una cantidad desconocida de líneas de consultas. Cada línea (consulta) contiene un nombre a buscar, y debes seguir leyendo líneas hasta que no haya más entrada.
+
+Nota: Los nombres consisten en letras minúsculas del alfabeto inglés y son solo nombres de pila.
+
+Restricciones
+Restricciones
+
+Formato de salida
+En una nueva línea por cada consulta, imprime Not found si el nombre no tiene una entrada correspondiente en la agenda; de lo contrario, imprime el nombre y el número completos en el formato nombre=numeroDeTelefono.
+
+Entrada de ejemplo
+
+3
+sam 99912222
+tom 11122222
+harry 12299933
+sam
+edward
+harry
+
+Salida de ejemplo
+
+sam=99912222
+Not found
+harry=12299933
+
+Explicación
+Agregamos los siguientes pares (Clave, Valor) a nuestro mapa, quedando así:
+
+Luego procesamos cada consulta e imprimimos clave=valor si el nombre consultado se encuentra en el mapa; de lo contrario, imprimimos Not found.
+
+Consulta 0: sam
+Sam es una de las claves en nuestro diccionario, así que imprimimos sam=99912222.
+
+Consulta 1: edward
+Edward no es una de las claves en nuestro diccionario, así que imprimimos Not found.
+
+Consulta 2: harry
+Harry es una de las claves en nuestro diccionario, así que imprimimos harry=12299933.
