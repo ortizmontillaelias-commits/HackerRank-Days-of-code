@@ -1,0 +1,88 @@
+**Objetivo**
+Hoy ampliaremos nuestro conocimiento de arrays agregando otra dimensión. Consulta la pestaña [Tutorial](https://www.hackerrank.com/challenges/30-2d-arrays/tutorial) para material de aprendizaje y un video instructivo.
+
+**Contexto**
+Dado un Array 2D, arr:
+
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+```
+
+Definimos un reloj de arena en arr como un subconjunto de valores con índices que siguen este patrón en la representación gráfica de arr:
+
+```
+a b c
+  d
+e f g
+```
+
+Hay 16 relojes de arena en arr, y una suma de reloj de arena es la suma de los valores de un reloj de arena.
+
+**Tarea**
+Calcula la suma de reloj de arena para cada reloj de arena en arr, luego imprime la suma máxima de reloj de arena.
+
+**Ejemplo**
+En el array mostrado arriba, la suma máxima de reloj de arena es 7 para el reloj de arena en la esquina superior izquierda.
+
+**Formato de entrada**
+Hay 6 líneas de entrada, donde cada línea contiene 6 enteros separados por espacios que describen el Array 2D arr.
+
+**Restricciones**
+Restricciones
+
+* -9 <= arr[i][j] <= 9
+* 0 <= i, j <= 5
+
+**Formato de salida**
+Imprime la suma máxima de reloj de arena en arr.
+
+**Entrada de ejemplo**
+
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
+```
+
+**Salida de ejemplo**
+
+```
+19
+```
+
+**Explicación**
+arr contiene los siguientes relojes de arena:
+
+```
+1 1 1   1 1 0   1 0 0   0 0 0
+  1       0       0       0
+1 1 1   1 1 0   1 0 0   0 0 0
+
+0 1 0   1 0 0   0 0 0   0 0 0
+  1       1       0       0
+0 0 2   0 2 4   2 4 4   4 4 0
+
+1 1 1   1 1 0   1 0 0   0 0 0
+  0       2       4       4
+0 0 0   0 0 2   0 2 0   2 0 0
+
+0 0 2   0 2 4   2 4 4   4 4 0
+  0       0       2       0
+0 0 1   0 1 2   1 2 4   2 4 0
+```
+
+El reloj de arena con la suma máxima (19) es:
+
+```
+2 4 4
+  2
+1 2 4
+```
