@@ -1,0 +1,29 @@
+Objetivo
+Hoy aprenderemos sobre un concepto algorítmico llamado recursión. Consulta la pestaña Tutorial para encontrar material de aprendizaje y un video instructivo.
+
+Método recursivo para calcular el factorial
+Descripción de la función
+
+Completa la función factorial en el editor de abajo. Asegúrate de utilizar recursión.
+
+La función factorial tiene el siguiente parámetro:
+
+int n: un número entero.
+Retorna
+int: el factorial de n.
+
+Nota: Si no utilizas recursión o no nombras tu función recursiva factorial o Factorial, obtendrás una puntuación de 0.
+
+Formato de entrada
+
+Un único número entero n (el argumento que se pasará a la función factorial).
+
+Restricciones
+Tu solución debe contener una función recursiva llamada factorial.
+Entrada de ejemplo
+3
+Salida de ejemplo
+6
+Explicación
+
+Considera los siguientes pasos. Después de las llamadas recursivas de los pasos 1 al 3, los resultados se van acumulando desde el paso 3 hasta el paso 1.
