@@ -31,8 +31,8 @@ def mostrar_menu():
 
 def main():
     print("=== Mini Sistema de Facturación ===")
-    tip_percent = int(input("Ingrese el porcentaje de propina: ").strip())
-    tax_percent = int(input("Ingrese el porcentaje de impuesto:").strip())
+    tip_percent = int(input("Ingrese el porcentaje de propina (%):").strip())
+    tax_percent = int(input("Ingrese el porcentaje de impuesto (%):").strip())
     productos_facturados = []
     cantidad = int(input("\n¿Cuántos productos va a pedir?: ").strip())
     if cantidad < 1:

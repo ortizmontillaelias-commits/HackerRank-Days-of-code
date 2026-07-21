@@ -1,0 +1,30 @@
+Objetivo
+Hoy aprenderemos sobre la estructura de datos Array (arreglo). Consulta la pestaña Tutorial para material de aprendizaje y un video instructivo.
+
+Tarea
+Dado un array de enteros, imprime sus elementos en orden inverso como una sola línea de números separados por espacios.
+
+Ejemplo
+
+Imprime 4 3 2 1. Cada entero está separado por un espacio.
+
+Formato de entrada
+La primera línea contiene un entero (el tamaño de nuestro array).
+La segunda línea contiene enteros separados por espacios que describen los elementos del array.
+
+Restricciones
+Restricciones
+
+, donde es el entero en el array.
+
+Formato de salida
+Imprime los elementos del array en orden inverso como una sola línea de números separados por espacios.
+
+Entrada de ejemplo
+
+4
+1 4 3 2
+
+Salida de ejemplo
+
+2 3 4 1                
