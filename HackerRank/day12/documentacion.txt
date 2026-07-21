@@ -1,0 +1,39 @@
+Objetivo
+Hoy profundizaremos en la Herencia. Consulta el tutorial adjunto para material de aprendizaje y un video instructivo.
+
+Tarea
+Se te dan dos clases, Person y Student, donde Person es la clase base y Student es la clase derivada. El código completo para Person y una declaración para Student se te proporcionan en el editor. Observa que Student hereda todas las propiedades de Person.
+
+Completa la clase Student escribiendo lo siguiente:
+
+Un constructor de la clase Student, que tiene los parámetros:
+Un string, firstName.
+Un string, lastName.
+Un entero, id.
+Un array (o vector) de enteros de puntuaciones de exámenes, testScores.
+Un método char calculate() que calcula el promedio de un objeto Student y retorna el carácter de calificación representativo de su promedio calculado:
+
+Formato de entrada
+El código stub bloqueado en el editor lee la entrada y llama al constructor de la clase Student con los argumentos necesarios. También llama al método calculate, que no toma argumentos.
+La primera línea contiene firstName, lastName, e id, separados por un espacio. La segunda línea contiene el número de puntuaciones de exámenes. La tercera línea de enteros separados por espacios describe testScores.
+
+Restricciones
+Restricciones
+
+Formato de salida
+La salida es manejada por el código stub bloqueado. Tu salida será correcta si tu constructor de la clase Student y el método calculate() están correctamente implementados.
+
+Entrada de ejemplo
+
+Heraldo Memelli 8135627
+2
+100 80
+
+Salida de ejemplo
+
+ Name: Memelli, Heraldo
+ ID: 8135627
+ Grade: O
+
+Explicación
+Este estudiante tenía puntuaciones para promediar: 100 y 80. El promedio del estudiante es 90. Un promedio de 90 corresponde a la calificación O, así que el método calculate() debería retornar el carácter 'O'.
