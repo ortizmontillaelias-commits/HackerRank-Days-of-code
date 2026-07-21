@@ -1,0 +1,43 @@
+Objetivo
+Hoy extenderemos lo que aprendimos ayer sobre Herencia a las Clases Abstractas. Debido a que este es un concepto de programación orientada a objetos muy específico, los envíos están limitados a los pocos lenguajes que usan esta construcción. Consulta la pestaña Tutorial para material de aprendizaje y un video instructivo.
+
+Tarea
+Dada una clase Book y una clase Solution, escribe una clase MyBook que haga lo siguiente:
+
+Herede de Book
+Tenga un constructor parametrizado con estos parámetros:
+string title
+string author
+int price
+Implemente el método abstracto display() de la clase Book de modo que imprima estas líneas:
+"Title:", un espacio, y luego el title de la instancia actual.
+"Author:", un espacio, y luego el author de la instancia actual.
+"Price:", un espacio, y luego el price de la instancia actual.
+
+Nota: Debido a que estas clases se escriben en el mismo archivo, no debes usar un modificador de acceso (por ejemplo: public) al declarar MyBook o tu código no se ejecutará.
+
+Formato de entrada
+No eres responsable de leer ninguna entrada desde stdin. La clase Solution crea un objeto Book y llama al constructor de la clase MyBook (pasándole los argumentos necesarios). Luego llama al método display en el objeto Book.
+
+Formato de salida
+El método debe imprimir y etiquetar el respectivo title, author y price de la instancia del objeto MyBook (con cada valor en su propia línea) así:
+
+Title: $title
+Author: $author
+Price: $price
+
+Nota: El signo $ se antepone a los nombres de variables para indicar que son marcadores de posición para variables.
+
+Entrada de ejemplo
+La siguiente entrada desde stdin es manejada por el código stub bloqueado en tu editor:
+
+The Alchemist
+Paulo Coelho
+248
+
+Salida de ejemplo
+La siguiente salida es impresa por tu método display():
+
+Title: The Alchemist
+Author: Paulo Coelho
+Price: 248
