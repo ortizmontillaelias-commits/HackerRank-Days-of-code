@@ -1,0 +1,36 @@
+Objetivo
+Hoy trabajaremos con una Lista Enlazada (Linked List). Consulta la pestaña Tutorial para material de aprendizaje y un video instructivo.
+
+En el editor se te proporciona una clase Node. Un objeto Node tiene un campo entero de datos, data, y un puntero a una instancia de Node, next, que apunta a otro nodo (es decir, el siguiente nodo de la lista).
+
+También se declara una función insert de Node en tu editor. Tiene dos parámetros: un puntero, head, que apunta al primer nodo de una lista enlazada, y un entero, data, que debe agregarse al final de la lista como un nuevo objeto Node.
+
+Tarea
+Completa la función insert en tu editor de modo que cree un nuevo Node (pasa data como argumento del constructor de Node) y lo inserte al final (tail) de la lista enlazada referenciada por el parámetro head. Una vez agregado el nuevo nodo, retorna la referencia al nodo head.
+
+Nota: El argumento head es null para una lista vacía.
+
+Formato de entrada
+La primera línea contiene T, el número de elementos a insertar.
+Cada una de las siguientes T líneas contiene un entero para insertar al final de la lista.
+
+Formato de salida
+Retorna una referencia al nodo head de la lista enlazada.
+
+Entrada de ejemplo
+
+STDIN   Function
+-----   --------
+4       T = 4
+2       first data = 2
+3
+4
+1       fourth data = 1
+
+Salida de ejemplo
+
+2 3 4 1
+
+Explicación
+T = 4, así que tu método insertará nodos en una lista inicialmente vacía.
+Primero, el código retorna un nuevo nodo que contiene el valor de datos 2 como el head de la lista. Luego crea e inserta los nodos 3, 4 y 1 al final de la lista.
