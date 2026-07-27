@@ -1,0 +1,38 @@
+Objetivo
+Hoy vamos a empezar con las Excepciones aprendiendo a convertir un entero desde una cadena de texto e imprimir un mensaje de error personalizado. Revisa la pestaña de Tutorial para materiales de aprendizaje y un video instructivo.
+
+Tarea
+Lee una cadena, S, e imprime su valor entero; si S no puede convertirse a un entero, imprime Bad String.
+
+Nota: Debes usar las construcciones de conversión de String a Integer y de manejo de excepciones incorporadas en tu lenguaje de envío. Si intentas usar bucles/sentencias condicionales, obtendrás una puntuación de 0.
+
+Formato de entrada
+Una única cadena, S.
+
+Restricciones
+
+0 < long(S) < 6, donde long(S) es la longitud de la cadena S.
+S está compuesta ya sea por letras minúsculas (a-z) o dígitos decimales (0-9).
+
+Formato de salida
+Imprime el valor entero convertido de S, o Bad String si S no puede convertirse a un entero.
+
+Entrada de ejemplo 0
+
+3
+
+Salida de ejemplo 0
+
+3
+
+Entrada de ejemplo 1
+
+za
+
+Salida de ejemplo 1
+
+Bad String
+
+Explicación
+El caso de ejemplo 0 contiene un entero, por lo que no debería generar una excepción al intentar convertirlo a entero. Por lo tanto, imprimimos el entero.
+El caso de ejemplo 1 no contiene ningún entero, por lo que un intento de convertirlo a entero generará una excepción. Por lo tanto, nuestro manejador de excepciones imprime Bad String.

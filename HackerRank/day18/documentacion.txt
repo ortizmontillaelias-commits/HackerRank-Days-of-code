@@ -1,0 +1,32 @@
+¡Bienvenido al Día 18! Hoy vamos a aprender sobre Pilas (Stacks) y Colas (Queues). Revisa la pestaña de Tutorial para materiales de aprendizaje y un video instructivo.
+
+Un palíndromo es una palabra, frase, número u otra secuencia de caracteres que se lee igual hacia adelante y hacia atrás. ¿Puedes determinar si una cadena dada, S, es un palíndromo?
+
+Para resolver este desafío, primero debemos tomar cada carácter de S, encolarlo en una cola (queue), y también apilarlo (push) en una pila (stack) con ese mismo carácter. Una vez hecho esto, debemos desencolar el primer carácter de la cola y desapilar el carácter superior de la pila, luego comparar ambos caracteres para ver si son iguales; mientras los caracteres coincidan, seguimos desencolando, desapilando y comparando cada carácter hasta que nuestros contenedores estén vacíos (si no coinciden, significa que S no es un palíndromo).
+
+Escribe las siguientes declaraciones e implementaciones:
+
+Dos variables de instancia: una para tu lifo (stack/pila), y otra para tu fifo (queue/cola).
+Un método void pushCharacter(char ch) que apila un carácter en una pila.
+Un método void enqueueCharacter(char ch) que encola un carácter en la variable de instancia.
+Un método char popCharacter() que desapila y devuelve el carácter en la parte superior de la variable de instancia.
+Un método char dequeueCharacter() que desencola y devuelve el primer carácter en la variable de instancia.
+
+Formato de entrada
+No necesitas leer nada desde stdin. El código bloqueado (stub) en tu editor lee una única línea que contiene la cadena s. Luego llama a los métodos especificados arriba para pasar cada carácter a tus variables de instancia.
+
+Restricciones
+
+s está compuesta por letras minúsculas del alfabeto inglés.
+
+Formato de salida
+No eres responsable de imprimir ninguna salida a stdout.
+Si tu código está correctamente escrito y s es un palíndromo, el código bloqueado (stub) imprimirá "The word, s, is a palindrome."; de lo contrario, imprimirá "The word, s, is not a palindrome."
+
+Entrada de ejemplo
+
+racecar
+
+Salida de ejemplo
+
+The word, racecar, is a palindrome.

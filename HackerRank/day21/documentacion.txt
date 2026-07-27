@@ -1,0 +1,17 @@
+Objetivo
+Hoy vamos a hablar de Genéricos (Generics); ten en cuenta que no todos los lenguajes soportan esta construcción, por lo que hay menos lenguajes habilitados para este desafío. Revisa la pestaña de Tutorial para materiales de aprendizaje y un video instructivo.
+
+Tarea
+Escribe una única función genérica llamada printArray; esta función debe tomar como parámetro un arreglo de elementos genéricos (la excepción es C++, que toma un vector). La clase Solution bloqueada en tu editor pone a prueba tu función.
+
+Nota: Debes usar genéricos para resolver este desafío. No escribas funciones sobrecargadas (overloaded functions).
+
+Formato de entrada
+La clase Solution bloqueada en tu editor pasará diferentes tipos de arreglos a tu función printArray.
+
+Restricciones
+
+Debes tener exactamente 1 función llamada printArray.
+
+Formato de salida
+Tu función printArray debe imprimir cada elemento de su parámetro de arreglo genérico en una nueva línea.

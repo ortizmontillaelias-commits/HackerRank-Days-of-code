@@ -1,0 +1,38 @@
+Objetivo
+El desafío de ayer te enseñó a manejar situaciones excepcionales usando bloques try y catch. En el desafío de hoy, practicarás cómo lanzar y propagar una excepción. Revisa la pestaña de Tutorial para materiales de aprendizaje y un video instructivo.
+
+Tarea
+Escribe una clase Calculator con un único método: int power(int, int). El método power toma dos enteros, n y p, como parámetros y devuelve el resultado entero de n^p. Si n o p son negativos, el método debe lanzar una excepción con el mensaje: n and p should be non-negative.
+
+Nota: No uses un modificador de acceso (por ejemplo: public) en la declaración de tu clase Calculator.
+
+Formato de entrada
+La entrada desde stdin es manejada por el código bloqueado (stub) en tu editor. La primera línea contiene un entero, T, el número de casos de prueba. Cada una de las líneas siguientes describe un caso de prueba en enteros separados por espacio que denotan n y p, respectivamente.
+
+Restricciones
+
+Ningún caso de prueba resultará en overflow para un código correctamente escrito.
+
+Formato de salida
+La salida a stdout es manejada por el código bloqueado (stub) en tu editor. Hay T líneas de salida, donde cada línea contiene el resultado de n^p calculado por el método power de tu clase Calculator.
+
+Entrada de ejemplo
+
+4
+3 5
+2 4
+-1 -2
+-1 3
+
+Salida de ejemplo
+
+243
+16
+n and p should be non-negative
+n and p should be non-negative
+
+Explicación
+Caso 1: n y p son positivos, por lo que power devuelve el resultado de 3^5, que es 243.
+Caso 2: n y p son positivos, por lo que power devuelve el resultado de 2^4, que es 16.
+Caso 3: Ambas entradas (n y p) son negativas, por lo que power lanza una excepción y se imprime n and p should be non-negative.
+Caso 4: Una de las entradas (n) es negativa, por lo que power lanza una excepción y se imprime n and p should be non-negative.
