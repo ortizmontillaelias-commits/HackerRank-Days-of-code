@@ -1,0 +1,46 @@
+Objetivo
+Hoy avanzamos más con los Árboles Binarios de Búsqueda. ¡Consulta la pestaña de Tutorial para materiales de aprendizaje y un video instructivo!
+
+Tarea
+Un recorrido por niveles (level-order traversal), también conocido como búsqueda en anchura (breadth-first search), visita cada nivel de los nodos de un árbol de izquierda a derecha, de arriba hacia abajo. Se te da un puntero, , que apunta a la raíz de un árbol binario de búsqueda. Completa la función levelOrder proporcionada en tu editor para que imprima el recorrido por niveles del árbol binario de búsqueda.
+
+Pista: Encontrarás útil una cola (queue) para completar este desafío.
+
+Descripción de la función
+Completa la función levelOrder en el editor de abajo.
+
+levelOrder tiene el siguiente parámetro:
+
+Puntero Node root: una referencia a la raíz del árbol
+
+Imprime
+
+Imprime los elementos node.data como una línea de enteros separados por espacios. No se espera ningún valor de retorno.
+
+Formato de entrada
+El código base bloqueado en tu editor lee las siguientes entradas y las ensambla en un ABB:
+La primera línea contiene un entero, (el número de casos de prueba).
+Las líneas subsiguientes contienen cada una un entero, , que denota el valor de un elemento que debe agregarse al ABB.
+
+Restricciones
+
+Formato de salida
+Imprime el valor de cada nodo del recorrido por niveles del árbol como una sola línea de enteros separados por espacios.
+
+Entrada de ejemplo
+
+6
+3
+5
+4
+7
+2
+1
+
+Salida de ejemplo
+
+3 2 5 1 4 7
+
+Explicación
+La entrada forma el siguiente árbol binario de búsqueda:
+Recorremos cada nivel del árbol desde la raíz hacia abajo, y procesamos los nodos de cada nivel de izquierda a derecha. El recorrido por niveles resultante es , y imprimimos estos valores de datos como una sola línea de enteros separados por espacios.

@@ -1,0 +1,35 @@
+Objetivo
+Hoy estamos trabajando con Árboles Binarios de Búsqueda (ABB). ¡Consulta la pestaña de Tutorial para materiales de aprendizaje y un video instructivo!
+
+Tarea
+La altura de un árbol binario de búsqueda es el número de aristas entre la raíz del árbol y su hoja más lejana. Se te da un puntero, , que apunta a la raíz de un árbol binario de búsqueda. Completa la función getHeight proporcionada en tu editor para que devuelva la altura del árbol binario de búsqueda.
+
+Formato de entrada
+El código base bloqueado en tu editor lee las siguientes entradas y las ensambla en un árbol binario de búsqueda:
+La primera línea contiene un entero, , que denota el número de nodos en el árbol.
+Cada una de las líneas subsiguientes contiene un entero, , que denota el valor de un elemento que debe agregarse al ABB.
+
+Formato de salida
+El código base bloqueado en tu editor imprimirá el entero devuelto por tu función getHeight, que denota la altura del ABB.
+
+Entrada de ejemplo
+
+7
+3
+5
+2
+1
+4
+6
+7
+
+Salida de ejemplo
+
+3
+
+Explicación
+La entrada forma el siguiente ABB:
+
+La ruta más larga de raíz a hoja se muestra a continuación:
+
+Hay nodos en esta ruta que están conectados por aristas, lo que significa que la altura de nuestro ABB es . Por lo tanto, imprimimos como nuestra respuesta.
